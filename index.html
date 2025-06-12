@@ -16,7 +16,32 @@
         <img src="assets/images/logo.png" alt="logo"> love maths
     </h1>
 
-    <div class="game-area"></div>
+    <div class="game-area">
+        <div class="controls-area">
+            <button class="btn btn-green btn-big">
+                <i class="fas fa-plus"></i>
+            </button>
+            <button class="btn btn-blue btn-big">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button class="btn btn-orange btn-big">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="btn btn-red btn-big">
+                <i class="fas fa-divide"></i>
+            </button>
+
+        </div>
+        <div class="question-area">
+            <span id="operand1">0</span>
+            <span id="operator">x</span>
+            <span id="operand2">0</span>
+            <span>=</span>
+            <p class="answer-message">Enter Answer</p>
+            <input type="number" id="answer-box">
+        </div>
+        <button class="btn btn-gray">Submit Answer</button>
+    </div>
 
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
